@@ -1,0 +1,16 @@
+<resources>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<!-- Customize your theme here. -->
+	</style>
+	<style name="HeadingMedium">
+		<item name="android:textColor">@color/colorPrimaryText</item>
+		<item name="android:textSize">@dimen/text_medium</item>
+	</style>
+	<style name="HeadingLarge">
+		<item name="android:textColor">@color/colorPrimaryText</item>
+		<item name="android:textSize">@dimen/text_large</item>
+	</style>
+
+</resources>
