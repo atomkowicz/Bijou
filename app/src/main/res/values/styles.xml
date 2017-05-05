@@ -4,6 +4,10 @@
 	<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
 		<!-- Customize your theme here. -->
 	</style>
+	<style name="HeadingSmall">
+		<item name="android:textColor">@color/colorPrimaryText</item>
+		<item name="android:textSize">@dimen/text_small</item>
+	</style>
 	<style name="HeadingMedium">
 		<item name="android:textColor">@color/colorPrimaryText</item>
 		<item name="android:textSize">@dimen/text_medium</item>
@@ -11,6 +15,10 @@
 	<style name="HeadingLarge">
 		<item name="android:textColor">@color/colorPrimaryText</item>
 		<item name="android:textSize">@dimen/text_large</item>
+	</style>
+	<style name="TextLink">
+		<item name="android:textStyle">italic</item>
+		<item name="android:textSize">@dimen/text_medium</item>
 	</style>
 
 </resources>

@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">Bijou</string>
-    <string name="jewelery_shop">Jewelry shop.\r\n Open: Mon - Fri 9 - 6, Sat - Sun 10 - 3</string>
+    <string name="jewelery_shop">Jewelry shop \n Open: Mon - Fri 9 - 6, Sat - Sun 10 - 3</string>
     <string name="call_us">Click to call us</string>
     <string name="address">Sample St. 33 Krakow, PL</string>
     <string name="email">bijoou@test.pl</string>
+    <string name="website">www.bijou.com</string>
 </resources>

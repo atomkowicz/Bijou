@@ -4,26 +4,25 @@
 			xmlns:tools="http://schemas.android.com/tools"
 			tools:context="com.example.aga.bijou.MainActivity"
 			android:layout_width="match_parent"
-			android:layout_height="match_parent">
+			android:layout_height="match_parent"
+			android:background="@drawable/background">
 
 	<LinearLayout
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:orientation="vertical"
-		android:padding="@dimen/default_padding"
-		android:background="@drawable/background">
+		android:padding="@dimen/default_padding">
 
 		<ImageView
 			android:id="@+id/main_image"
 			android:layout_width="match_parent"
-			android:layout_height="120dp"
+			android:layout_height="@dimen/image_height_3"
 			android:src="@drawable/main"/>
 
 		<TextView
 			android:id="@+id/store_name"
 			android:layout_width="match_parent"
-			android:layout_height="100dp"
-			android:layout_weight="2"
+			android:layout_height="@dimen/image_height_2"
 			android:gravity="center_vertical"
 			android:text="@string/app_name"
 			android:textAlignment="center"
@@ -51,41 +50,38 @@
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:gravity="center_vertical"
-			android:orientation="horizontal">
+			android:orientation="vertical">
 
 			<TextView
-				android:layout_width="0dp"
-				android:layout_weight="1"
+				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:gravity="center_vertical"
 				android:text="@string/call_us"
 				android:textColor="#fff"
 				style="@style/HeadingSmall"
-				android:paddingRight="@dimen/small_padding"
+				android:padding="@dimen/default_padding"
 				android:drawableStart="@drawable/callus"
 				android:drawableLeft="@drawable/callus"
 				android:drawablePadding="@dimen/small_padding"/>
 
 			<TextView
-				android:layout_width="0dp"
-				android:layout_weight="1"
+				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:gravity="center_vertical"
 				android:text="@string/address"
 				style="@style/HeadingSmall"
-				android:paddingRight="@dimen/small_padding"
+				android:padding="@dimen/default_padding"
 				android:drawableStart="@drawable/marker"
 				android:drawableLeft="@drawable/marker"
 				android:drawablePadding="@dimen/small_padding"/>
 
 			<TextView
-				android:layout_width="0dp"
-				android:layout_weight="1"
+				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:gravity="center_vertical"
 				android:text="@string/email"
 				style="@style/HeadingSmall"
-				android:paddingRight="@dimen/small_padding"
+				android:padding="@dimen/default_padding"
 				android:drawableStart="@drawable/email"
 				android:drawableLeft="@drawable/email"
 				android:drawablePadding="@dimen/small_padding"/>
